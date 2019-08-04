@@ -1,0 +1,83 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,400i,600,600i,700&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Fira+Sans&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Noto+Sans|Poppins&display=swap");
+.one-edge-shadow {
+  -webkit-box-shadow: 0 8px 6px -6px rgba(0, 0, 0, 0.356);
+  -moz-box-shadow: 0 8px 6px -6px rgba(0, 0, 0, 0.356);
+  box-shadow: 0 8px 6px -6px rgba(0, 0, 0, 0.356);
+}
+form label {
+  color: white;
+
+  font-size: 15px;
+  font-weight: normal;
+}
+
+form {
+  font-family: "Poppins", sans-serif;
+}
+.error {
+  color: red;
+  margin-left: 5px;
+}
+
+label.error {
+  display: inline;
+}
+
+input[type="text"] {
+  border-radius: 0px;
+}
+input[type="email"] {
+  border-radius: 0px;
+}
+
+.mtop20 {
+  margin-top: 20px;
+}
+.mtop30 {
+  margin-top: 30px;
+}
+.mtop40 {
+  margin-top: 40px;
+}
+
+.m10 {
+  margin: 10px;
+}
+
+.bgcolor {
+  background: #3685b2;
+}
+
+.padding20 {
+  padding: 20px;
+}
+
+footer {
+  background: black;
+  color: white;
+}
+
+.link {
+  margin: 14px;
+  font-family: "Fira Sans", sans-serif;
+  font-size: 17px;
+  float: right;
+  border: 0;
+  background: none;
+  box-shadow: none;
+}
+
+input[type="submit"] {
+  background: white;
+  color: #3685b2;
+  border-radius: 0px;
+  -webkit-transition: all ease-in-out 0.3s;
+  padding: 10px;
+  width: 100px;
+}
+.title {
+  font-size: 35px;
+  font-family: "Noto Sans", sans-serif;
+}
